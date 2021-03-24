@@ -25,8 +25,25 @@ window.smoothScroll = function(target) {
 // let btn = document.getElementById('gotoport')
 // btn.onclick = gotoport;
 function gotoport(){
-   window.location.href="Project.html" 
+   window.location.href="" 
 }
+
+function gotoCKS(){
+  window.location.href="../PortFolioWebprograming/Assignment/ChickenSatay/recipe.html" 
+}
+
+function gotoBP(){
+  window.location.href="../PortFolioWebprograming/Assignment/BlogPage/Java1.html" 
+}
+
+function gotoRegis(){
+  window.location.href="../PortFolioWebprograming/Assignment/Register & Login/Java2Regis.html" 
+}
+
+function gotoGame(){
+  window.location.href="../PortFolioWebprograming/Assignment/SquareGame/JavaGame.html" 
+}
+
 const imageslide = document.querySelector('.imageslide')
 const imageslides = document.querySelectorAll('.imageslide')
 

@@ -1,0 +1,61 @@
+body{
+    font-family: monospace, 'waffle regular' ,Garamond, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 180, 107);
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+#alert{    
+    text-align: center;
+    margin: 50px;
+}
+
+#topic1{
+    
+    margin-left: 50px;    
+}
+
+#comment1{
+    
+    margin-left: 50px;    
+}
+
+#comment2{
+      
+    margin-left: 50px;
+    margin-bottom: 30px; 
+}
+
+#text1{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    margin-left: 20px;
+    width: 500px;
+    height: 20px;
+    font-size: 15px;
+}
+
+hr{
+    border: black solid 3px;
+    background-color: black;
+}
+
+#box{
+    border: rgb(0, 0, 0);
+}
+
+button{
+    margin-left: 20px;
+    font-size: 15pt;
+
+}
+p{
+    border: solid rgb(0, 0, 0) 3px;
+}
+
