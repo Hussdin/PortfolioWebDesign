@@ -367,6 +367,10 @@ h1.style1{
     border: solid black 3px;
 }
 
+.resource{
+    margin-top: 5%;
+}
+
 /* for animation */
 
 @keyframes slide_left{
