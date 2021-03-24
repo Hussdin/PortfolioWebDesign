@@ -2,11 +2,11 @@
 @font-face
 {
     font-family: GOGOIA;
-    src: url(../PortFolioWebprograming/Font/GOGOIA.ttf);
+    src: url(Font/GOGOIA.ttf);
 }
 @font-face{
     font-family: MANIFESTO;
-    src: url(../PortFolioWebprograming/Font/MANIFESTO.ttf);
+    src: url(Font/MANIFESTO.ttf);
 }
 body{
     background-color: rgba(0, 0, 0, 0.055);
@@ -142,7 +142,7 @@ h1.style1{
     color: white;
     border: solid rgb(88, 88, 88) 3px;
     font-family: GOGOIA;
-    background-image: url(../PortFolioWebprograming/Pic/Home.png);
+    background-image: url(Pic/Home.png);
     background-size: cover;
     -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);
     box-shadow: 0 30px 50px rgba(0,0,0,.2);
@@ -155,7 +155,7 @@ h1.style1{
     width: auto;
     height: 500px;
     text-align: center; 
-    background-image: url(../PortFolioWebprograming/Pic/Home2.png);
+    background-image: url(Pic/Home2.png);
     background-size: cover;
     -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);
     box-shadow: 0 30px 50px rgba(0,0,0,.2);
@@ -426,7 +426,7 @@ h1.style1{
         color: white;
         border: solid rgb(88, 88, 88) 3px;
         font-family: GOGOIA;
-        background-image: url(../PortFolioWebprograming/Pic/Home.png);
+        background-image: url(Pic/Home.png);
         background-size:100%;
         background-repeat:no-repeat;
         animation:slide_right 1.5s ease ;
@@ -439,7 +439,7 @@ h1.style1{
         width: 700px;
         height: 300px;
         text-align: right; 
-        background-image: url(../PortFolioWebprograming/Pic/Home2.png);
+        background-image: url(Pic/Home2.png);
         background-size: 100%;
         background-repeat:no-repeat;
         -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);
@@ -646,7 +646,7 @@ h1.style1{
         color: white;
         border: solid rgb(88, 88, 88) 3px;
         font-family: GOGOIA;
-        background-image: url(../PortFolioWebprograming/Pic/Home.png);
+        background-image: url(Pic/Home.png);
         background-size:100%;
         background-repeat:no-repeat;
         animation:slide_right 1.5s ease ;
@@ -659,7 +659,7 @@ h1.style1{
         width: 500px;
         height: 200px;
         text-align: right; 
-        background-image: url(../PortFolioWebprograming/Pic/Home2.png);
+        background-image: url(Pic/Home2.png);
         background-size: 100%;
         background-repeat:no-repeat;
         -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);

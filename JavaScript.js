@@ -25,23 +25,23 @@ window.smoothScroll = function(target) {
 // let btn = document.getElementById('gotoport')
 // btn.onclick = gotoport;
 function gotoport(){
-   window.location.href="" 
+   window.location.href="Project.html" 
 }
 
 function gotoCKS(){
-  window.location.href="../PortFolioWebprograming/Assignment/ChickenSatay/recipe.html" 
+  window.location.href="Assignment/ChickenSatay/recipe.html" 
 }
 
 function gotoBP(){
-  window.location.href="../PortFolioWebprograming/Assignment/BlogPage/Java1.html" 
+  window.location.href="Assignment/BlogPage/Java1.html" 
 }
 
 function gotoRegis(){
-  window.location.href="../PortFolioWebprograming/Assignment/Register & Login/Java2Regis.html" 
+  window.location.href="Assignment/Register & Login/Java2Regis.html" 
 }
 
 function gotoGame(){
-  window.location.href="../PortFolioWebprograming/Assignment/SquareGame/JavaGame.html" 
+  window.location.href="Assignment/SquareGame/JavaGame.html" 
 }
 
 const imageslide = document.querySelector('.imageslide')
