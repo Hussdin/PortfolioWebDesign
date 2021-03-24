@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='Pcss.css'>
+    <title> Hussdin Chotinok Portfolio</title>
+</head>
+<body>
+    <div class=" gridContainer">
+        
+        <div id = "Leftmenu"> 
+            <img id = "Me" src="../PortFolioWebprograming/Pic/Me.JPG" alt="My Picture">
+            <ul id = "Topic">
+                <li> <h2> Hussdin Chotinok </h2>  </li>
+                <li> Game Developer (Unity) Thailand
+                     <img Id = "THflag" src="../PortFolioWebprograming/Pic/THFlag.png" 
+                     alt="Thailand Flag Icon"> </li> 
+            </ul>
+            <div id = scrollbtn >
+                <button type="button" onclick="smoothScroll(document.getElementById('home'))" > Home </button> <br>
+                <button type="button" onclick="smoothScroll(document.getElementById('Aboutme'))"> About Me </button> <br>
+                <button type="button" onclick="smoothScroll(document.getElementById('interested'))" > Interested </button> <br>
+                <button type="button" onclick="smoothScroll(document.getElementById('skill'))"> My Skill </button> <br>
+                <button type="button" onclick="smoothScroll(document.getElementById('mywork'))"> My Work </button> <br>
+            </div>
+            <hr class = "style1">
+            <ul id = "Contact">
+                <li> CONTACT ME BY </li>
+                <li> <a href="https://www.facebook.com/hatsuna.miyaki"> Facebook </a> </li>
+                <li> <a href="https://www.instagram.com/ohmpeanggg/"> Instagram  </a> </li>
+                <li> Email: Hussdin.c@hmail.com </li>
+                <li> Tel. 094 - 3241501</li>
+            </ul>
+        </div>
+        
+    <div class="overflowscroll">
+        <div class = "Detail"> 
+            <div id =home>
+                <h1 class = style1> I am a Game Developer</h1>
+                <div class="projecttxt">
+                    If you want to see more work <br>
+                    <button id = "gotoport" onclick="gotoport()"> c l i c k ! </button>
+                </div>
+                
+            </div>
+
+            <div id = Aboutme>  
+                 <h1 id = ptext > My name is Hussdin Chotinok <br>  <hr class = "style2"> </h1> 
+                 <div id = abtxt>
+                     I'm studying GameDeveloper at KingMongkut’s University of Technology Thonburi <br>
+                     i'm highly creative, interested in GameDesign and GameDevelope <br>
+                     I wish to create a brand new game   
+                 </div>
+                 <ul id = "ContactHide">
+                    <li> CONTACT ME BY </li>
+                    <li> <a href="https://www.facebook.com/hatsuna.miyaki"> Facebook </a> </li>
+                    <li> <a href="https://www.instagram.com/ohmpeanggg/"> Instagram  </a> </li>
+                    <li> Email: Hussdin.c@hmail.com </li>
+                    <li> Tel. 094 - 3241501</li>
+                </ul>
+
+            </div>
+            <div id = interested>
+                I'm interested in <hr class = "style1">
+                <div class=" Interested_Container">
+                        <div id = inbox> <img id = interP  src="../PortFolioWebprograming/Pic/game.png" alt=""> <br> GAME </div>
+                        <div id = inbox> <img id = interP  src="../PortFolioWebprograming/Pic/movie.png" alt=""> <br> MOVIE</BR> </div>
+                        <div id = inbox> <img id = interP  src="../PortFolioWebprograming/Pic/pets.png" alt=""> <br> PETS</div>
+                </div>
+                <br>
+            </div>
+            <div id = skill>
+                <div id=skilltxt>  There are my Abilities down below </div>  <hr class = "style1">    
+                <div class = Gridskillcontainer>
+                        <div>
+                            <img id = icon src="../PortFolioWebprograming/Pic/unity.png" alt=""> <br>
+                            <div id = txtskill> Unity </div> Unity
+                        </div>
+                        <div>
+                            <img id = icon src="../PortFolioWebprograming/Pic/PS.png" alt=""> <br>
+                            <div id = txtskill> Adobe Photoshop </div>
+                        </div>
+                        <div>
+                            <img id = icon src="../PortFolioWebprograming/Pic/Maya.png" alt=""> <br>
+                            <div id = txtskill>Autodesk Maya </div>
+                        </div>
+                        <div>
+                            <img id = icon src="../PortFolioWebprograming/Pic/AI.png" alt=""> <br>
+                            <div id = txtskill> Illustrator </div>
+                        </div>
+                        <div>
+                            <img id = icon src="../PortFolioWebprograming/Pic/AN.png" alt=""> <br>
+                            <div id = txtskill> Adobe Animate </div>
+                        </div>
+                        <div>
+                            <img id = iconsmall src="../PortFolioWebprograming/Pic/CSHARP.png" alt="">
+                            <img id = iconsmall src="../PortFolioWebprograming/Pic/JS.png" alt="">
+                            <img id = iconsmall src="../PortFolioWebprograming/Pic/HTML.png" alt="">
+                            <div id = txtskillcode>  Coding c# / JAVA / HTML </div>
+                        </div>
+                </div>
+                
+            </div>
+
+            <div id = mywork>
+                <div>
+                <div id="mwtxt"> There are some of my work <hr class = "style1"> </div> 
+                    <div class="slidecontainer">
+                        <div class="imageslide">
+                            <img src="../PortFolioWebprograming/Pic/mushroom.png" id="lastClone" alt=""> 
+                            <img src="../PortFolioWebprograming/Pic/TheDriver.png" alt=""> 
+                            <img src="../PortFolioWebprograming/Pic/superjump.png" alt=""> 
+                            <img src="../PortFolioWebprograming/Pic/mushroom.png" alt=""> 
+                            <img src="../PortFolioWebprograming/Pic/TheDriver.png" id="FirstClone" alt=""> 
+                        </div>
+                    
+                    </div>
+                    <img id =prevbtn src="../PortFolioWebprograming/Pic/LA.png">  </img>
+                    <img id =nxtbtn src="../PortFolioWebprograming/Pic/RA.png">  </img>
+                </div>
+            </div>
+            <script src='JavaScript.js'></script>
+        </div>
+    </div>
+</body>
+</html>
